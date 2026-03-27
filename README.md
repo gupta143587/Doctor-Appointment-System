@@ -1,90 +1,129 @@
-🏥 Doctor Appointment System
-📌 Overview
+# 🏥 Doctor Appointment System
 
-The Doctor Appointment System is a web-based application designed to simplify the process of booking and managing medical appointments. It allows patients to register, log in, and book appointments with doctors, while doctors can manage appointments and suggest medicines.
+## 📌 Overview
 
-This project demonstrates a structured frontend application integrated with a mock backend using JSON data to simulate real-world API behavior.
+The Doctor Appointment System is a web-based application that allows patients to book appointments with doctors and enables doctors to manage appointments and suggest medicines.
 
-🚀 Features
-👤 Patient Module
-Patient Registration and Login
-Book appointments with available doctors
-Select services, date, and time
-View appointment history
-Check suggested medicines (if provided by doctor)
-👨‍⚕️ Doctor Module
-Doctor Registration and Login
-View patient appointments
-Add suggested medicines for appointments
-Manage consultation details
-💊 Medicine Management (Optional)
-View list of medicines
-Add medicines dynamically
-Used for doctor suggestions
-🛠️ Tech Stack
-Frontend:
-HTML5
-CSS3 (Bootstrap)
-JavaScript (Vanilla JS)
-Backend (Mock):
-JSON-based data (simulating database)
-Can be run using JSON Server
-📂 Project Structure
+This project demonstrates a structured frontend integrated with a mock backend using JSON Server to simulate real-world API interactions.
 
-doctor-appointment-system/
+---
+
+## 🚀 Features
+
+### 👤 Patient Module
+
+* Register and login functionality
+* Book appointments with doctors
+* Select services, date, and time
+* View appointment details and status
+* Check suggested medicines provided by doctors
+
+### 👨‍⚕️ Doctor Module
+
+* Doctor login functionality
+* View all assigned appointments
+* Add suggested medicines for patients
+* Manage consultation details
+
+### 💊 Medicine Management
+
+* View available medicines
+* Add medicines dynamically
+* Used in doctor recommendations
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** HTML, CSS, JavaScript
+* **Styling:** Bootstrap
+* **Backend (Mock):** JSON Server
+* **Database:** JSON (db.json)
+
+---
+
+## 📂 Project Structure
+
+```
+Doctor-Appointment-System/
 │
 ├── index.html
 ├── scripts/
-│ ├── patient-dashboard.js
-│ ├── doctor-dashboard.js
-│ └── other JS files
-│
 ├── styles/
-│ └── CSS files
-│
 ├── views/
-│ ├── patients/
-│ ├── doctors/
-│ └── shared/
-│
-├── backend/
-│ └── db.json ← Mock backend data
+├── Backend/
+│   └── db.json
+├── README.md
+```
 
-🗄️ Backend Data
+---
 
-This project includes a mock backend file (db.json) which contains:
+## 🗄️ Backend Data
 
-Users (Patients)
-Doctors
-Appointments
-Medicines (optional)
+The project includes a mock backend file located at:
 
-The backend simulates real API endpoints using tools like JSON Server.
+```
+Backend/db.json
+```
 
-⚙️ How to Run the Project
-Step 1: Run Backend (JSON Server)
-json-server --watch db.json --port 3000
-Step 2: Run Frontend
-Open index.html in browser
-🔗 API Endpoints (via JSON Server)
-GET /users
-GET /doctors
-GET /appointments
-POST /appointments
-PUT /appointments/
-🎯 Key Highlights
-Modular folder structure
-Role-based system (Patient & Doctor)
-Dynamic UI updates using JavaScript
-Simulated full-stack behavior using JSON backend
-Easy to extend into a real backend (Node.js/Django)
-📈 Future Enhancements
-Integrate real backend (Node.js / Django)
-Add authentication with JWT
-Database integration (MongoDB/MySQL)
-Payment integration
-Notifications & reminders
-👨‍💻 Author
+This file contains:
 
-Yogesh Gupta
+* Users (Patients)
+* Doctors
+* Appointments
+* Medicines (optional)
+
+It simulates real backend APIs using JSON Server.
+
+---
+
+## ⚙️ How to Run the Project
+
+### ▶️ Run Backend (JSON Server)
+
+```
+json-server --watch Backend/db.json --port 3000
+```
+
+### 🌐 Run Frontend
+
+* Open `index.html` in your browser
+
+---
+
+## 🔗 API Endpoints (JSON Server)
+
+* GET /users
+* GET /doctors
+* GET /appointments
+* POST /appointments
+* PUT /appointments/:id
+
+---
+
+## 🎯 Key Highlights
+
+* Clean and modular folder structure
+* Role-based system (Patient & Doctor)
+* Dynamic UI updates using JavaScript
+* Simulated backend with REST API behavior
+* Easy to extend into full-stack application
+
+---
+
+## 📈 Future Enhancements
+
+* Integrate real backend (Node.js / Django)
+* Add authentication (JWT)
+* Connect to real database (MongoDB/MySQL)
+* Payment integration
+* Email/SMS notifications
+
+---
+
+## 👨‍💻 Author
+
+**Yogeswara Gupta**
 B.Tech CSE (2025)
+
+---
