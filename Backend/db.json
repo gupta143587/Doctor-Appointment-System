@@ -1,0 +1,252 @@
+{
+  "users": [
+    {
+      "email": "aarav.sharma@example.com",
+      "password": "$2a$10$TOn/CR60hGK4PrizTHzI6.B2A5HkB01ZKrrXVE7mkAEgHuQJZmSfy",
+      "name": "Aarav Sharma",
+      "phone": "7836958456",
+      "id": 1
+    },
+    {
+      "email": "gupta@gmail.com",
+      "password": "$2a$10$2OlJksnlzAjUrja1XBeGkOcVxF/1xQ8IK9oNFxnZ796.8.c0dGiqi",
+      "name": "gupta",
+      "phone": "1234567890",
+      "id": 2
+    },
+    {
+      "email": "yogesh@gmail.com",
+      "password": "$2a$10$I5i0g0aB/cU8htYXjd45EeA8TLQOCRirFZ7q93yB2DX/w/gi4P7vu",
+      "name": "yogesh",
+      "phone": "1234567890",
+      "id": 3
+    },
+    {
+      "email": "war@gmail.com",
+      "password": "$2a$10$GBhTjCmZjy44mLqZQvzV4O.X5Gs5pUuDEmi5ALpHv7ecaX9PRMpaG",
+      "name": "War",
+      "phone": "9876543210",
+      "id": 4
+    },
+    {
+      "email": "sumanth@gmail.com",
+      "password": "$2a$10$YMvghw97m4pg4t7AdqGOIeIdtMGDVOHnSFAgtsnwwBD064wOdiJTy",
+      "name": "sumanth",
+      "phone": "1234567890",
+      "id": 5
+    },
+    {
+      "email": "yogesh1@gmail.com",
+      "password": "$2a$10$gOWH54Qi49W0ggeCAjb4q.0a3HINEn1Pic5.y5CF6uQx4SCGNP8TG",
+      "name": "yogesh",
+      "phone": "1234567890",
+      "id": 6
+    }
+  ],
+  "patients": [
+    {
+      "name": "Gupta",
+      "email": "gupta@gmail.com",
+      "password": "1234567890",
+      "phone": "1234567890",
+      "id": 1
+    },
+    {
+      "name": "Yogesh",
+      "email": "yogehs@gmail.com",
+      "password": "1234567890",
+      "phone": "1234567890",
+      "id": 2
+    },
+    {
+      "name": "war",
+      "email": "war@gmail.com",
+      "password": "1234567890",
+      "phone": "1234567890",
+      "id": 3
+    }
+  ],
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. Anjali Verma",
+      "email": "anjali.verma@example.com",
+      "password": "password123",
+      "specialization": "Cardiology",
+      "experience": 12
+    },
+    {
+      "id": 2,
+      "name": "Dr. Rahul Mehra",
+      "email": "rahul.mehra@example.com",
+      "password": "securePass!45",
+      "specialization": "Dermatology",
+      "experience": 8
+    },
+    {
+      "id": 3,
+      "name": "Dr. Priya Singh",
+      "email": "priya.singh@example.com",
+      "password": "priyaPass2026",
+      "specialization": "Pediatrics",
+      "experience": 5
+    },
+    {
+      "id": 4,
+      "name": "Dr. Amit Sharma",
+      "email": "amit.sharma@example.com",
+      "password": "amit@789",
+      "specialization": "Orthopedics",
+      "experience": 10
+    },
+    {
+      "id": 5,
+      "name": "Dr. Neha Kapoor",
+      "email": "neha.kapoor@example.com",
+      "password": "nehaSecure12",
+      "specialization": "Gynecology",
+      "experience": 9
+    },
+    {
+      "name": "Sumanth",
+      "email": "sumanth@gmail.com",
+      "password": "1234567890-",
+      "specialization": "Pediatrician",
+      "experience": 5,
+      "id": 6
+    }
+  ],
+  "appointments": [
+    {
+      "doctorId": "",
+      "selectedService": "Follow-up Consultation",
+      "appointmentDate": "2026-01-15",
+      "appointmentTime": "02:32",
+      "appointmentNotes": "na",
+      "id": 1
+    },
+    {
+      "doctorId": "1",
+      "selectedService": "Ultrasound",
+      "appointmentDate": "2026-01-06",
+      "appointmentTime": "12:00",
+      "appointmentNotes": "Hi",
+      "id": 2
+    },
+    {
+      "patientId": 5,
+      "doctorId": 1,
+      "selectedService": "Dental Checkup",
+      "appointmentDate": "2026-01-14",
+      "appointmentTime": "14:39",
+      "appointmentNotes": "na",
+      "suggestedMedicines": [],
+      "id": 3
+    },
+    {
+      "doctorId": "1",
+      "selectedService": "Emergency Consultation",
+      "appointmentDate": "2026-01-15",
+      "appointmentTime": "12:09",
+      "appointmentNotes": "na",
+      "id": 4
+    },
+    {
+      "doctorId": "1",
+      "selectedService": "Lab Test",
+      "appointmentDate": "2026-01-08",
+      "appointmentTime": "12:12",
+      "appointmentNotes": "nz",
+      "id": 5
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Rahul Mehta",
+      "position": "Software Engineer",
+      "salary": 60000,
+      "createdAt": "2025-12-09T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Sneha Gupta",
+      "position": "Project Manager",
+      "salary": 85000,
+      "createdAt": "2025-12-09T10:05:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Arjun Rao",
+      "position": "UI/UX Designer",
+      "salary": 55000,
+      "createdAt": "2025-12-09T10:10:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Nisha Reddy",
+      "position": "QA Engineer",
+      "salary": 50000,
+      "createdAt": "2025-12-09T10:15:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Karan Patel",
+      "position": "DevOps Engineer",
+      "salary": 70000,
+      "createdAt": "2025-12-09T10:20:00Z"
+    }
+  ],
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Toyota",
+      "model": "Camry",
+      "year": 2022,
+      "price": 28000,
+      "color": "Silver",
+      "fuelType": "Petrol",
+      "image": "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg"
+    },
+    {
+      "id": 2,
+      "brand": "Honda",
+      "model": "Civic",
+      "year": 2021,
+      "price": 24000,
+      "color": "Red",
+      "fuelType": "Petrol",
+      "image": "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg"
+    },
+    {
+      "id": 3,
+      "brand": "Tesla",
+      "model": "Model 3",
+      "year": 2023,
+      "price": 42000,
+      "color": "White",
+      "fuelType": "Electric",
+      "image": "https://images.pexels.com/photos/799443/pexels-photo-799443.jpeg"
+    },
+    {
+      "id": 4,
+      "brand": "BMW",
+      "model": "X5",
+      "year": 2022,
+      "price": 61000,
+      "color": "Black",
+      "fuelType": "Diesel",
+      "image": "https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg"
+    },
+    {
+      "id": 5,
+      "brand": "Audi",
+      "model": "A4",
+      "year": 2021,
+      "price": 39000,
+      "color": "Blue",
+      "fuelType": "Petrol",
+      "image": "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg"
+    }
+  ]
+}
